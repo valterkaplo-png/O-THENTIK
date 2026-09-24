@@ -1,0 +1,17 @@
+{
+  "name": "Othentik — École ↔ famille",
+  "short_name": "Othentik",
+  "description": "Chaque message, tel qu'il a été dit. Communication école-famille bilingue, traduite, vérifiable.",
+  "lang": "fr-CA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0E2A3D",
+  "icons": [
+    { "src": "icons/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icone-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
