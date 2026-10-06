@@ -1,6 +1,6 @@
 // Othentik — service worker : la coquille de l'application s'ouvre même sans réseau ;
 // les données, elles, viennent toujours du serveur (jamais mises en cache ici).
-const CACHE = "othentik-coquille-v3";
+const CACHE = "othentik-coquille-v4";
 const COQUILLE = ["./", "./manifest.webmanifest", "./icons/icone-192.png", "./icons/icone-512.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(COQUILLE)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => {
